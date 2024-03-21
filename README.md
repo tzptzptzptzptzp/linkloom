@@ -14,3 +14,37 @@
 - [進捗管理表(API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=844869407)
 - [進捗管理表(UI+API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1539331398)
 - [工数管理表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=264947126)
+
+## ディレクトリ構成
+
+```
+src/
+ ├── api / [name].api.ts
+ ├── app
+ ├── components
+ ├── config / [name].config.ts
+ ├── hooks / [name].hook.ts
+ ├── providers / [name].provider.tsx
+ ├── reducks
+ ├── schemas / [name].schema.ts
+ ├── styles / [name].style.scss
+ ├── types / [name].type.ts
+ ├── utils / [name].util.ts
+
+ components/
+ ├── atoms / [Name] / [Name].atom.tsx
+ ├── features / [Name] / [Name].feature.tsx
+ ├── forms / [Name] / [Name].form.tsx
+ ├── molecules / [Name] / [Name].molecule.tsx
+ ├── organisms / [Name] / [Name].organism.tsx
+ ├── templates / [Name] / [Name].template.tsx
+
+ reducks/[name]/
+ ├── dispatches.[name].ts
+ ├── initializes.[name].ts
+ ├── operations.[name].ts
+ ├── reducers.[name].ts
+ ├── selectors.[name].ts
+ ├── slice.[name].ts
+ ├── types.[name].ts
+```
