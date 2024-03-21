@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LinkLoom
 
-## Getting Started
+## 開発資料
 
-First, run the development server:
+- [アプリケーション概要](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=14502224)
+- [要求定義書](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=0)
+- [機能要件一覧表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=332822465)
+- [非機能要件一覧表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=623492906)
+- [画面一覧表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=678051956)
+- [テーブル一覧表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=812860006)
+- [DB 設計書](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1220957527)
+- [API 設計書](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1394397426)
+- [進捗管理表(UI)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1671581391)
+- [進捗管理表(API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=844869407)
+- [進捗管理表(UI+API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1539331398)
+- [工数管理表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=264947126)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ディレクトリ構成
+
 ```
+src/
+ ├── api / [name].api.ts
+ ├── app
+ ├── components
+ ├── config / [name].config.ts
+ ├── hooks / [name].hook.ts
+ ├── providers / [name].provider.tsx
+ ├── reducks
+ ├── schemas / [name].schema.ts
+ ├── styles / [name].style.scss
+ ├── types / [name].type.ts
+ ├── utils / [name].util.ts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ components/
+ ├── atoms / [Name] / [Name].atom.tsx
+ ├── features / [Name] / [Name].feature.tsx
+ ├── forms / [Name] / [Name].form.tsx
+ ├── molecules / [Name] / [Name].molecule.tsx
+ ├── organisms / [Name] / [Name].organism.tsx
+ ├── templates / [Name] / [Name].template.tsx
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ reducks/[name]/
+ ├── dispatches.[name].ts
+ ├── initializes.[name].ts
+ ├── operations.[name].ts
+ ├── reducers.[name].ts
+ ├── selectors.[name].ts
+ ├── slice.[name].ts
+ ├── types.[name].ts
+```
