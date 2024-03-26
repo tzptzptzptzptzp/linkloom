@@ -2,6 +2,8 @@
 
 ## 開発資料
 
+### ドキュメント
+
 - [アプリケーション概要](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=14502224)
 - [要求定義書](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=0)
 - [機能要件一覧表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=332822465)
@@ -15,7 +17,7 @@
 - [進捗管理表(UI+API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1539331398)
 - [工数管理表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=264947126)
 
----
+### ダイアグラム
 
 - [システム構成図](https://www.figma.com/file/UpOHAF0NP2XOprBmUVrQKK/LinkLoom?type=design&node-id=1%3A6&mode=design&t=2rr6sT2G0kNOVzxQ-1)
 - [ER図](https://www.figma.com/file/UpOHAF0NP2XOprBmUVrQKK/LinkLoom?type=design&node-id=1%3A5&mode=design&t=2rr6sT2G0kNOVzxQ-1)
