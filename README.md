@@ -15,6 +15,11 @@
 - [進捗管理表(UI+API)](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=1539331398)
 - [工数管理表](https://docs.google.com/spreadsheets/d/1p-MNCigngsJbKjWzqAbvgvFbOpNa4frX0tVcj4aSfYs/edit#gid=264947126)
 
+## デザイン資料
+
+- [デザインカンプ](https://www.figma.com/file/UpOHAF0NP2XOprBmUVrQKK/LinkLoom?type=design&node-id=1%3A2&mode=design&t=2rr6sT2G0kNOVzxQ-1)
+- [ワイヤーフレーム](https://www.figma.com/file/UpOHAF0NP2XOprBmUVrQKK/LinkLoom?type=design&node-id=1%3A3&mode=design&t=2rr6sT2G0kNOVzxQ-1)
+
 ## ディレクトリ構成
 
 ```
